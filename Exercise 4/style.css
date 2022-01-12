@@ -1,0 +1,173 @@
+*{
+    padding: 0px;
+    margin: 0px
+}
+
+.container{
+    background-color:aquamarine;
+    height: 500px;
+    display: flex;
+}
+
+.box{
+    background-color:rgb(0, 0, 0);
+    height:500px;
+    width:50%;
+}
+
+.boxarticle{
+    background-color: rgb(255, 255, 255);
+    height:500px;
+    width: 50%;
+}
+
+.boxarticle img{
+    background-color: rgb(255, 255, 255);
+    height: 80%;
+    width: 80%;
+    object-fit: cover;
+}
+
+.boxinfo{
+    background-color:rgb(0, 0, 0);
+    height:500px;
+    width:50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: red solid 2px;
+}
+
+.box img{
+    height:100%;
+    width:100%;
+    object-fit: cover;
+    border: red solid 2px;
+}
+
+.byline{
+    color: rgb(156, 156, 156);
+    margin: 10%;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.selectionhead{
+    color:rgb(199, 77, 77); 
+}
+
+p{
+    color: red;
+}
+
+h1{
+    color: white;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+h1:hover{
+    color: red;
+    font-size: 50px;
+}
+h2{
+    color: rgb(255, 255, 255);
+    max-width: 450px;
+    margin-bottom: 5px;
+    font-weight: 150px;
+    padding: 5px;
+    font-size: 20px;
+    
+}
+p{
+    font-size: 18px;
+}
+.title{
+    color: black;
+    font-size: 30px;
+    margin-top: 10px;
+    padding:2px;
+}
+.title:hover{
+    color: rgb(255, 5, 5);
+    font-size: 35px;
+
+}
+
+.byline2{
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    margin-top: 10px;
+    padding:2px;
+}
+    
+
+.date{
+    color: rgb(0, 0, 0);
+    font-size: 12px;
+    padding:2px;
+}
+.bodytext{
+    padding:2px;
+    color: black;
+    margin-left: 3px;
+}
+   
+@media screen and (max-width: 768px) {
+
+    .container{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        height: 800px;
+    }
+    .box{
+        background-color:rgb(0, 0, 0);
+        height:400px;
+        width:100%;
+    
+    }
+    .boxinfo{
+        background-color:white;
+        height:400px;
+        width:100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        
+    }
+    h1{
+    color: white;
+    margin-bottom: 10px;
+    font-size: 30px;
+    }
+
+    h2{
+        color: white;
+        max-width: 300px;
+        margin-bottom: 10px;  
+        font-size: 16px;
+        font-weight: 300;
+    }
+
+    .byline{
+        color: rgb(189, 189, 189);
+        margin-bottom: 10px;
+        font-size: 12px;
+    }
+
+    .sectionhead{
+        color: rgb(170, 0, 0);
+        margin-bottom: 10px;
+        font-size: 16px;
+    }
+
+    .boxarticle{
+        background-color: rgb(255, 255, 255);
+        height: 500px;
+        width: 100%;
+}
+}
